@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: black;
+}
+h1{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-family: 'Nerko One', cursive;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+img{
+    width: 250px;
+    height: 454px;
+    border-radius: 60px;
+    border: rebeccapurple 5px solid;
+    
+}
+
+img:hover{
+    opacity: 0.7;
+}
+
+.imgs{
+    flex-direction: row;
+    display: flex;
+}
+
+.imgs div{
+    padding: 40px;
+}
+
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 35px;
+    }
+    
+    
+    img{
+        width: 300px;
+        border-radius: 60px;
+    }
+
+    .imgs{
+        flex-direction: column;
+        display: flex;
+    }
+
+    
+}

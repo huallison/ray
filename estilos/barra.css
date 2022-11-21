@@ -1,0 +1,91 @@
+body{
+    display:flex;
+    justify-content: center;
+    height:100vh;
+    align-items: center;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.red, .coracao{
+    width: 183px;
+    height: 256px;    
+}
+
+.red{
+    background-color: rgb(186, 186, 186);
+    margin-top: 60px;
+    height: 205px;
+    width: 300px;
+    display: none;
+    text-align: center;
+}
+
+.red.selecionado{
+    display: block;
+}
+
+button{
+    color: white;
+    background-color: rgb(189, 13, 0);
+
+}
+
+@media screen and (max-width: 360px){
+
+    img{
+        width: 93px;
+        height: 196px; 
+    }
+    .red, .coracao{
+        width: 93px;
+        height: 196px;    
+    }
+    
+    .red{
+        background-color: rgb(186, 186, 186);
+        margin-top: 35px;
+        height: 152px;
+        width: 170px;
+        text-align: center;
+    }
+    p{
+        font-size: 10px;
+        
+    }
+    a{
+        font-size: 6px;
+    }
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 350px){
+
+    img{
+        width: 93px;
+        height: 176px; 
+    }
+    .red, .coracao{
+        width: 93px;
+        height: 176px;    
+    }
+    
+    .red{
+        background-color: rgb(186, 186, 186);
+        margin-top: 30px;
+        height: 134px;
+        width: 170px;
+        text-align: center;
+    }
+    p{
+        font-size: 10px;
+        
+    }
+    a{
+        font-size: 8px;
+    }
+}
